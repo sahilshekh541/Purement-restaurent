@@ -1,0 +1,90 @@
+main .about-us .container .primary-h1{
+    width: 50%;
+    font-size: 3.4rem;
+}
+main .about-us .container .food-description{
+    width: 50%;
+    padding: 20px;
+}
+main .about-us .container .food-description > p{
+    font-size: 0.8rem;
+    margin-bottom: 80px;
+}
+#close{
+    display: block;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 100px;
+}
+header .logo{
+    text-transform: uppercase;
+    font-family: 'Teko';
+    font-size: 1.8rem;
+    line-height: 80px;
+    letter-spacing: 1.3px;
+}
+header .logo span{
+    font-family: 'Gill sans';
+    font-style: normal;
+}
+header nav ul {
+    display: none;
+}
+header #menu{
+    display: block;
+    font-size: 1.5rem;
+    line-height: 80px;
+    cursor: pointer;
+}
+#sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+    height: 100vh;
+    width: 60vw;
+    backdrop-filter: blur(2px);
+    background-color: rgba(187, 187, 187,0.5);
+    z-index: 999;
+    transition: display 2s ease;
+}
+#sidebar ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 25px;
+    margin: 24px;
+}
+#sidebar ul li{
+    list-style: none;
+}
+#sidebar ul li:nth-child(1){
+    font-size: 33px;
+    color: white;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.461);
+    margin-top: 10px;
+}
+#sidebar ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    padding: 10px 15px;
+    transition: 0.5s ease;
+}
+#sidebar ul li a:hover{
+    background-color: white;
+    font-weight: 700;
+}
+
+/* main */
+main{
+    margin-top: 100px;
+}

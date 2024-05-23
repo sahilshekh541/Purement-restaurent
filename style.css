@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+/* hide menu icon */
+header #menu{
+    display: none;
+}
+#sidebar{
+    display: none;
+}
+#close{
+    display: none;
+}
+/* header section */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: rgb(235, 235, 235);
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+header .logo{
+    text-transform: uppercase;
+    font-family: 'Teko';
+    font-size: 5.8rem;
+    line-height: 80px;
+    letter-spacing: 1.3px;
+    font-weight: 500;
+}
+header .logo span{
+    font-family: 'Gill sans';
+    font-style: normal;
+}
+header nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'poppins';
+    font-size: .9rem;
+    color: black;
+}
+header nav ul li #active,
+header nav ul li a:hover{
+    color: grey;
+}
+
+/* main */
+main {
+    position: absolute;
+    margin-top: 160px;
+    height: 100%;
+    width: 100%;
+}
+main .upper-section .container{
+    height: 600px;
+    width: 100vw;
+    background: url('./img/img1.webp');
+    background-position: center;
+    background-size: cover;
+    
+}
+main .upper-section .container .title{
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 30px;
+    color: black;
+    font-size: 2.2rem;
+    width: 15%;
+}
+main .menu{
+    position: absolute;
+    width: 100%;
+    padding: 34px;
+    background-color: rgb(224, 224, 224);
+}
+main .menu .article{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+main .menu .article .primary-h1{
+    text-align: center;
+    text-transform: uppercase;
+    width: 60%;
+}
+
+main .menu .article .menu-description{
+    width: 40%;   
+    margin-right: 30px;
+}
+main .menu .article .menu-description > p{
+    font-size: .8rem;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: left;
+}
+main .menu .article .menu-description > a{
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+main .demo-img{
+    width: 100%;
+    position: absolute;
+    margin-top: 279px;
+    display: flex;
+}
+main .demo-img .img1{
+    height: 1000px;
+    width: 50%;
+    background-image: url('./img/img2.webp');
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+main .demo-img .img2{
+    height: 1000px;
+    width: 50%;
+    background-image: url('./img/img3.webp');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+/* about us */
+main .about-us{
+    margin-top: 1300px;
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(153 156 91);
+}
+main .about-us .container{
+  display: flex;
+  justify-content: center;
+  padding: 34px;
+}
+main .about-us .container .primary-h1{
+    width: 40%;
+}
+main .about-us .container .food-description{
+    width: 45%;
+    padding: 24px;
+}
+main .about-us .container .food-description > p{
+    margin-bottom: 120px;
+}
+main .about-us .container .food-description > a {
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.4rem;
+}
+
+/* footer section */
+footer{
+    position: absolute;
+    margin-top: 2500px;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(159, 159, 159);
+}
+footer .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+footer .container .part1{
+    width: 60%;
+}
+footer .container .part1 .title{
+    text-transform: uppercase;
+    font-weight: 200;
+    color: black;
+    font-size: 1.8rem;
+    line-height: 1px;
+}
+footer .container .part1 .logo{
+    text-transform: uppercase;
+    font-family: 'Teko';
+    font-size: 5.8rem;
+    letter-spacing: 1.3px;
+    font-weight: 500;
+}
+footer .container .part1 .logo span{
+    font-family: 'Gill sans';
+    font-style: normal;
+}
+footer .container .part2 > p{
+    font-size: .9rem;
+    width: 60%;
+}
+
+footer .container .part3 > p{
+    font-size: .9rem;
+    width: 50%;
+}
+
+.primary-h1{
+    font-size: 4.2rem;
+}

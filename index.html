@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restorent Website | Welcome to online Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" media="screen and (max-width:1200px)" href="1200px.css">
+    <link rel="stylesheet" media="screen and (max-width:1116px)" href="1116px.css">
+    <link rel="stylesheet" media="screen and (max-width:900px)" href="900px.css">
+    <link rel="stylesheet" media="screen and (max-width:600px)" href="600px.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <h1 class="logo">pu<span>r</span>ement</h1>
+        <nav>
+            <ul>
+                <li><a href="" id="active">Home</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">BOok a table</a></li>
+            </ul>
+        </nav>
+            <i id="menu" class="ri-menu-line" onclick=togglemenu()></i>
+    </header>
+    <div id="sidebar">
+        <ul>
+            <li><i id="close" class="ri-close-line" onclick=closemenu()></i></li>
+            <li><a href="" id="active">Home</a></li>
+            <li><a href="">Menu</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">BOok a table</a></li>
+        </ul>
+    </div>
+    <!-- main contain -->
+    <main>
+        <div class="upper-section">
+            <div class="container">
+                <h2 class="title">
+                    brasserie & bar
+                </h2>
+            </div>
+        </div>
+        <sectiom class="menu">
+            <div class="article">
+                <h1 class="primary-h1">
+                    our menu
+                </h1>
+                <div class="menu-description">
+                    <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text”
+                        or double click me to add your own content and make changes to the font. I’m a great place for
+                        you to tell a story and let your users know a little more about you.</p>
+                    <a href="">explore menu</a>
+                </div>
+            </div>
+        </sectiom>
+
+        <div class="demo-img">
+            <div class="img1">
+            </div>
+            <div class="img2">
+            </div>
+        </div>
+
+        <section class="about-us">
+            <div class="container">
+                <h1 class="primary-h1">IT'S ALWAYS MORE THAN GOOD FOOD</h1>
+                <div class="food-description">
+                    <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text”
+                        or double click me to add your own content and make changes to the font. I’m a great place for
+                        you to tell a story and let your users know a little more about you.</p>
+                    <a href="">about us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="part1">
+                <h1 class="title">BRASSERIE & BAR</h1>
+                <h1 class="logo">pu<span>r</span>ement</h1>
+            </div>
+            <div class="part2">
+                <p>A: 500 Terry Francine St.
+                    San Francisco CA 94158 
+                    T: 123-456-7890
+                </p>
+            </div>
+            <div class="part3">
+                <p>A: 500 Terry Francine St.
+                    San Francisco CA 94158 
+                    T: 123-456-7890
+                </p>
+            </div>
+        </div>
+        <p class="copyguide">&copy; 2035 by Purement. Powered and secured by Wix</p>
+    </footer>
+    <script>
+        let menu = document.getElementById('sidebar')
+        let close = document.getElementById('sidebar')
+        function togglemenu(){
+            menu.style.display='block';
+        }
+        function closemenu(){
+            close.style.display='none'
+        }
+    </script>
+</body>
+
+</html>

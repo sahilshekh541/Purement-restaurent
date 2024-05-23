@@ -1,0 +1,113 @@
+main .upper-section .container .title{
+    margin-left: 0;
+    padding: 15px;
+    font-size: 1.5rem;
+    width: 40%;
+}
+main .menu .article{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+}
+main .menu .article .primary-h1{
+    text-align: start;
+    line-height: 0;
+    padding: 0;
+    font-size: 2.4rem;
+    font-weight: 400;
+    width: 100%;
+}
+main .menu .article .menu-description{
+    width: 100%;
+}
+main .menu .article .menu-description > p{
+    font-size: 1.1rem;
+    margin-top: 50px;
+}
+main .demo-img{
+    margin-top: 390px;
+    flex-direction: column;
+}
+main .demo-img .img1{
+    height: 600px;
+    width: 100%;
+    background-image: url('./img/img2.webp');
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+main .demo-img .img2{
+    height: 600px;
+    width: 100%;
+    background-image: url('./img/img3.webp');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+/* about us */
+main .about-us{
+    margin-top: 1640px;
+    height: auto;
+}
+main .about-us .container{
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+main .about-us .container .primary-h1{
+    width: 100%;
+    font-size: 2.2rem;
+    font-weight: 500;
+    padding: 0 20px;
+}
+main .about-us .container .food-description{
+    width: 80%;
+    padding: 10px;
+}
+main .about-us .container .food-description > p{
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+}
+main .about-us .container .food-description > a {
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.4rem;
+}
+
+/* footer */
+footer{
+    margin-top: 2830px;
+}
+footer .container{
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+footer .container .part1{
+    width: 100%;
+    margin: 70px 0;
+}
+footer .container .part1 .title{
+    font-size: 1.5rem;
+}
+footer .container .part1 .logo{
+    font-size: 3.4rem;
+}
+footer .container .part2 > p{
+    font-size: 1.3rem;
+    width: 100%;
+}
+footer .container .part3{
+    display: none;
+} 
+footer .copyguide{
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 20px;
+    width: 100%;
+}
